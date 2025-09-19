@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force light form controls even if OS is dark */
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+}
